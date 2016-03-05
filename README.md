@@ -1,7 +1,7 @@
 # Vocabulario y utilidades relacionadas con el alumbrado público
 
 En este proyecto, desarrollado durante el Open Data Day en Madrid, el 5 de marzo de 2016 (http://madrid.opendataday.org/), se han creado:
-* Un vocabulario inicial para la descripción de alumbrado público (farolas fundamentalmente) [vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico]
+* Un vocabulario inicial para la descripción de alumbrado público (farolas fundamentalmente) [http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico]
 * Un tesauro sobre tipos de lámparas utilizados en el alumbrado público [http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara]
 * Un Open Refine skeleton para la transformación de datos a RDF
 * Una aplicación Web para mostrar mapas de alumbrado público estáticos (de Cáceres, por ejemplo, basado en CartoDB) y dinámicos (creados mediante una aplicación móvil en Fulcrum) [http://opencitydata.github.io/urbanismo-infraestructuras-alumbrado-publico/]
