@@ -9,8 +9,7 @@
 rdfs:label "Tipos de lámpara de alumbrado público"@es;
 rdfs:comment "Tesauro que recoge los tipos de lámpara de alumbrado público, inspirado en los datos disponibles en el dataset de farolas de Open Data Cáceres, en un documento de la Oficina Técnica de Protección del Cielo de Canarias, y en la website http://www.tuveras.com/luminotecnia/lamparasyluminarias.htm"@es;
 dct:created "2016-03-05"^^xsd:dateTime;
-skos:hasTopConcept skoslight:F,
-#skoslight:FCBC,
+skos:hasTopConcept skoslight:F, skoslight:FCBC,
 skoslight:H, skoslight:HM, skoslight:I, skoslight:LED,
 #skoslight:MC,
 #skoslight:PAR,
@@ -23,11 +22,11 @@ skos:prefLabel "Fluorescente"@es;
 dct:created "2016-03-05"^^xsd:dateTime;
 skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara> .
 
-#skoslight:FCBC a skos:Concept;
-#skos:notation "FCBC";
-#skos:prefLabel "----"@es;
-#dct:created "2016-03-05"^^xsd:dateTime;
-#skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara> .
+skoslight:FCBC a skos:Concept;
+skos:notation "FCBC";
+skos:prefLabel "Fluorescente Compacto de Bajo Consumo"@es;
+dct:created "2016-03-05"^^xsd:dateTime;
+skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara> .
 
 skoslight:H a skos:Concept;
 skos:notation "H";
