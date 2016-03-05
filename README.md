@@ -1,46 +1,10 @@
-# FAROLAS EN CÁCERES
+# Vocabulario y utilidades relacionadas con el alumbrado público
 
-Es un proyecto desarrollado durante el Open Data Day en el Mediala Prado en Madrid.
+En este proyecto, desarrollado durante el Open Data Day en Madrid, el 5 de marzo de 2016 (http://madrid.opendataday.org/), se han creado:
+* Un vocabulario inicial para la descripción de alumbrado público (farolas fundamentalmente).
+* Una aplicación Web para mostrar mapas de alumbrado público
+* Una aplicación móvil para recoger datos de alumbrado
+* Un recolector de Tweets para recoger datos e incidencias de alumbrado
 
-## Objetivos
+Este repositorio continuará siendo actualizado en las próximas semanas.
 
-Establecer un formato de datos para que las instituciones públicas publiquen su inventario de farolas con su geolocalización.
-
-## Mapa de recursos
-
-### Creación de Mapas.
-
-Mapas creados con [Carto DB](http://www.cartodb.com).
-
-
-
-### Template para la Web.
-
-#### Thanks to the developers of One Page Wonder template
-
-##### [Start Bootstrap](http://startbootstrap.com/) - [One Page Wonder](http://startbootstrap.com/template-overviews/one-page-wonder/)
-
-[One Page Wonder](http://startbootstrap.com/template-overviews/one-page-wonder/) is a basic one page template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
-
-#### Getting Started
-
-To use this template, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
-
-#### Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-one-page-wonder/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/one-page-wonder/).
-
-#### Creator
-
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
-
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-#### Copyright and License
-
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-one-page-wonder/blob/gh-pages/LICENSE) license.
