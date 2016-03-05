@@ -1,0 +1,9 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+<..\index-en.html> a prov:Entity;
+	 prov:wasAttributedTo [ a prov:Agent; foaf:name "María Poveda (Ontology Engineering Group - Universidad Politécnica de Madrid)".];
+	 prov:wasAttributedTo [ a prov:Agent; foaf:name "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)".];
+	 prov:wasAttributedTo [ a prov:Agent; foaf:name "Raúl García (Ontology Engineering Group - Universidad Politécnica de Madrid)".];
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+.

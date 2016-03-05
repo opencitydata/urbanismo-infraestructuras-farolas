@@ -1,0 +1,7 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "localizacion:Municipio" ; /*classes style*/
+	"localizacion:Municipio" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+
+}
