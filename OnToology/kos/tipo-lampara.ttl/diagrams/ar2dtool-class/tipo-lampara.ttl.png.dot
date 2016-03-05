@@ -1,0 +1,23 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	"skoslight:VMCC" -> "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara" [ label = "skos:inScheme" ];
+	"skoslight:LED" -> "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara" [ label = "skos:inScheme" ];
+	"skoslight:H" -> "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara" [ label = "skos:inScheme" ];
+	"skoslight:VMAP" -> "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara" [ label = "skos:inScheme" ];
+	"skoslight:VSBP" -> "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara" [ label = "skos:inScheme" ];
+	"skoslight:F" -> "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara" [ label = "skos:inScheme" ];
+	"skoslight:I" -> "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara" [ label = "skos:inScheme" ];
+	"http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara" -> "skoslight:HM" [ label = "skos:hasTopConcept" ];
+	"http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara" -> "skoslight:H" [ label = "skos:hasTopConcept" ];
+	"http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara" -> "skoslight:VSBP" [ label = "skos:hasTopConcept" ];
+	"http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara" -> "skoslight:LED" [ label = "skos:hasTopConcept" ];
+	"http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara" -> "skoslight:F" [ label = "skos:hasTopConcept" ];
+	"http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara" -> "skoslight:VSAP" [ label = "skos:hasTopConcept" ];
+	"http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara" -> "skoslight:I" [ label = "skos:hasTopConcept" ];
+	"http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara" -> "skoslight:VMAP" [ label = "skos:hasTopConcept" ];
+	"http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara" -> "skoslight:VMCC" [ label = "skos:hasTopConcept" ];
+	"skoslight:VSAP" -> "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara" [ label = "skos:inScheme" ];
+	"skoslight:HM" -> "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara" [ label = "skos:inScheme" ];
+
+}
