@@ -1,0 +1,16 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "skos-reference:Concept" "base:Material" "urbanismo-infraestructuras:PuntoDeAlumbrado" "localizacion:Municipio" ; /*classes style*/
+	"base:situadoEnMunicipio" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"urbanismo-infraestructuras:alumbrado-publico" -> "urbanismo-infraestructuras:alumbrado-publico.html" [ label = "dcterms:hasFormat" ];
+	"urbanismo-infraestructuras:alumbrado-publico" -> "http://creativecommons.org/licenses/by/4.0/" [ label = "cc:license" ];
+	"urbanismo-infraestructuras:alumbrado-publico" -> "urbanismo-infraestructuras:alumbrado-publico.owl" [ label = "dcterms:hasFormat" ];
+	"urbanismo-infraestructuras:alumbrado-publico" -> "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/alumbrado-publico/0.1" [ label = "owl:versionIRI" ];
+	"urbanismo-infraestructuras:alumbrado-publico" -> "base:" [ label = "vann:preferredNamespaceUri" ];
+	"urbanismo-infraestructuras:PuntoDeAlumbrado" -> "skos-reference:Concept" [ label = "base:tieneTipoDeLampara" ];
+	"urbanismo-infraestructuras:PuntoDeAlumbrado" -> "skos-reference:Concept" [ label = "base:emiteTipoDeLuz" ];
+	"urbanismo-infraestructuras:PuntoDeAlumbrado" -> "localizacion:Municipio" [ label = "base:situadoEnMunicipio" ];
+	"urbanismo-infraestructuras:PuntoDeAlumbrado" -> "base:Material" [ label = "base:contieneMaterial" ];
+
+}
