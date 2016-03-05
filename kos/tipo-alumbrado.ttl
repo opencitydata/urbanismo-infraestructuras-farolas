@@ -1,0 +1,87 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos-light: <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-tecnologia/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-tecnologia> a skos:ConceptScheme ;
+rdfs:label "Tipos de lámpara de alumbrado público"@es;
+rdfs:comment "Tesauro que recoge los tipos de lámpara de alumbrado público, inspirado en los datos disponibles en el dataset de farolas de Open Data Cáceres, en un documento de la Oficina Técnica de Protección del Cielo de Canarias, y en la website http://www.tuveras.com/luminotecnia/lamparasyluminarias.htm"@es;
+dct:created "2016-03-05"^^xsd:dateTime;
+skos:hasTopConcept skos-light:F,
+#skos-light:FCBC,
+skos-light:H, skos-light:HM, skos-light:I, skos-light:LED,
+#skos-light:MC,
+#skos-light:PAR,
+skos-light:VMCC, skos-light:VMAP, skos-light:VSAP, skos-light:VSBP ;
+skos:notation "alumbrado-publico-tipo-tecnologia" .
+
+skos-light:F a skos:Concept;
+skos:notation "F";
+skos:prefLabel "Fluorescente"@es;
+dct:created "2016-03-05"^^xsd:dateTime;
+skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-tecnologia> .
+
+#skos-light:FCBC a skos:Concept;
+#skos:notation "FCBC";
+#skos:prefLabel "----"@es;
+#dct:created "2016-03-05"^^xsd:dateTime;
+#skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-tecnologia> .
+
+skos-light:H a skos:Concept;
+skos:notation "H";
+skos:prefLabel "Halógena"@es;
+dct:created "2016-03-05"^^xsd:dateTime;
+skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-tecnologia> .
+
+skos-light:HM a skos:Concept;
+skos:notation "HM";
+skos:prefLabel "Halogenuros metálicos"@es;
+dct:created "2016-03-05"^^xsd:dateTime;
+skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-tecnologia> .
+
+skos-light:I a skos:Concept;
+skos:notation "I";
+skos:prefLabel "Incandescencia"@es;
+dct:created "2016-03-05"^^xsd:dateTime;
+skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-tecnologia> .
+
+skos-light:LED a skos:Concept;
+skos:notation "LED";
+skos:prefLabel "LED"@es;
+dct:created "2016-03-05"^^xsd:dateTime;
+skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-tecnologia> .
+
+#skos-light:MC a skos:Concept;
+#skos:notation "MC";
+#skos:prefLabel "----"@es;
+#dct:created "2016-03-05"^^xsd:dateTime;
+#skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-tecnologia> .
+
+#skos-light:PAR a skos:Concept;
+#skos:notation "PAR";
+#skos:prefLabel "----"@es;
+#dct:created "2016-03-05"^^xsd:dateTime;
+#skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-tecnologia> .
+
+skos-light:VMCC a skos:Concept;
+skos:notation "VMCC";
+skos:prefLabel "Vapor de Mercurio Color Corregido"@es;
+dct:created "2016-03-05"^^xsd:dateTime;
+skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-tecnologia> .
+
+skos-light:VMAP a skos:Concept;
+skos:notation "VMAP";
+skos:prefLabel "Vapor de Mercurio Alta Presión"@es;
+dct:created "2016-03-05"^^xsd:dateTime;
+skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-tecnologia> .
+
+skos-light:VSAP a skos:Concept;
+skos:notation "VSAP";
+skos:prefLabel "Vapor de Sodio Alta Presión"@es;
+dct:created "2016-03-05"^^xsd:dateTime;
+skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-tecnologia> .
+
+skos-light:VSBP a skos:Concept;
+skos:notation "VSBP";
+skos:prefLabel "Vapor de Sodio Baja Presión"@es;
+dct:created "2016-03-05"^^xsd:dateTime;
+skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-tecnologia> .
