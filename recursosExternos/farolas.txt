@@ -1,0 +1,12 @@
+Campo tipo lámpara en el dataset de Caceres.
+"F" : Fluor????
+ "FCBC" : Flourecente Compact??? BAJo consumo????
+ "H" :
+ "HM" :
+ "I" :
+ "LED'S" :
+ "MC" :
+ "PAR" : 
+ "VMCC" Vapor de Mercurio Color Corregido
+ "VSAP"  : vapor de Sodio de Alta Presión
+ "VSBP": Vapor de Sodio de Baja Presión
