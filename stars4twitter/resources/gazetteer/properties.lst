@@ -1,0 +1,10 @@
+Bombilla:property=Bombilla
+Lux:property=Cubierta
+VE:property=Lux
+Cubierta:property=Cubierta
+Tipo:property=Tipo
+Visera:property=Cubierta
+Alcance:property=Alcance
+Dispersion:property=Dispersion
+Dispersión:property=Dispersion
+Inclinación:property=Inclinacion
