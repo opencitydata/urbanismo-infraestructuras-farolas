@@ -1,0 +1,22 @@
+/////////////////////////////////////////////// tipo
+Phase: TipoPhase
+Input: Token  Lookup
+Options: control = appelt
+
+
+Rule:property 
+(
+
+({Lookup.minorType== "property"})
+({Token.string == "="} | {Token.string == ":"} )?
+(
+({Token.kind== word}  | {Token.kind== number})[1,5]
+):tip
+
+
+)
+
+-->
+:tip.property = {kind = "propertypatetrn",string = :tip@cleanString}
+
+

@@ -1,0 +1,115 @@
+/////////////////////////////////////////////// tipo
+Phase: UnifierPhase
+Input: Token  Lookup
+Options: control = appelt
+
+
+Rule:propertyBombilla
+(
+
+({Lookup.minorType== "property",Lookup.property=="Bombilla"})
+({Token.string == "="} | {Token.string == ":"} )?
+(
+({Token.kind== word}  | {Token.kind== number})[1,5]
+):prop
+
+
+)
+
+-->
+:prop.property = {kind = "Bombilla",string = :prop@cleanString}
+
+
+Rule:propertyCubierta 
+(
+
+({Lookup.minorType== "property",Lookup.property=="Cubierta"})
+({Token.string == "="} | {Token.string == ":"} )?
+(
+({Token.kind== word}  | {Token.kind== number})[1,5]
+):prop
+
+
+)
+
+-->
+:prop.property = {kind = "cubierta",string = :prop@cleanString}
+
+
+Rule:propertyLux
+(
+
+({Lookup.minorType== "property",Lookup.property=="Lux"})
+({Token.string == "="} | {Token.string == ":"} )?
+(
+( {Token.kind== number})[1,5]
+):prop
+
+
+)
+
+-->
+:prop.property = {kind = "lux",string = :prop@cleanString}
+
+
+Rule:propertyTipo
+(
+
+({Lookup.minorType== "property",Lookup.property=="Tipo"})
+({Token.string == "="} | {Token.string == ":"} )?
+(
+({Token.kind== word}  | {Token.kind== number})[1,5]
+):prop
+
+
+)
+
+-->
+:prop.property = {kind = "tipo",string = :prop@cleanString}
+
+
+Rule:propertyAlcance
+(
+
+({Lookup.minorType== "property",Lookup.property=="Alcance"})
+({Token.string == "="} | {Token.string == ":"} )?
+(
+({Token.kind== word} )[1,5]
+):prop
+
+
+)
+
+-->
+:prop.property = {kind = "alcance",string = :prop@cleanString}
+
+
+Rule:propertyDispersion
+(
+
+({Lookup.minorType== "property",Lookup.property=="Dispersion"})
+({Token.string == "="} | {Token.string == ":"} )?
+(
+({Token.kind== word} )[1,5]
+):prop
+
+
+)
+
+-->
+:prop.property = {kind = "dispersion",string = :prop@cleanString}
+
+Rule:propertyIncl
+(
+
+({Lookup.minorType== "property",Lookup.property=="Inclinacion"})
+({Token.string == "="} | {Token.string == ":"} )?
+(
+({Token.kind== number} | {Token.string== "º"} | {Token.string== "-"})[1,5]
+):prop
+
+
+)
+
+-->
+:prop.property = {kind = "inclinacion",string = :prop@cleanString}
