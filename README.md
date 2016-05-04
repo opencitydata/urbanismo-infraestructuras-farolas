@@ -5,6 +5,7 @@ En este proyecto, desarrollado durante el Open Data Day en Madrid, el 5 de marzo
 * Un tesauro sobre tipos de lámparas utilizados en el alumbrado público [http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara]
 * Un Open Refine skeleton para la transformación de datos a RDF [https://github.com/opencitydata/urbanismo-infraestructuras-alumbrado-publico/blob/master/skeleton/skeletonPuntosDeAlumbrado.json]
 * Una aplicación Web para mostrar mapas de alumbrado público estáticos (de Cáceres, por ejemplo, basado en CartoDB) y dinámicos (creados mediante una aplicación móvil en Fulcrum) [http://opencitydata.github.io/urbanismo-infraestructuras-alumbrado-publico/]
+* Otra aplicación Web (basada en CartoDB) para mostrar mapas de alumbrado público estáticos en 3D, junto con datos catastrales [http://jils3000.github.io/farolas_caceres_3d/index.html]. En GitHub: [https://github.com/jils3000/farolas_caceres_3d]
 * Un recolector de Tweets para recoger datos e incidencias de alumbrado (se actualizará en las próximas semanas)
 
 Este repositorio continuará siendo actualizado en las próximas semanas.
