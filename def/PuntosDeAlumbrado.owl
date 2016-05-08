@@ -119,7 +119,7 @@
 
     <owl:ObjectProperty rdf:about="&urbanismo-infraestructuras;alumbrado-publico#contieneMaterial">
         <rdfs:label xml:lang="en">contieneMaterial</rdfs:label>
-        <rdfs:domain rdf:resource="&urbanismo-infraestructuras;PuntoDeAlumbrado"/>
+        <rdfs:domain rdf:resource="&urbanismo-infraestructuras;alumbrado-publico#PuntoDeAlumbrado"/>
         <rdfs:range rdf:resource="&urbanismo-infraestructuras;alumbrado-publico#Material"/>
     </owl:ObjectProperty>
     
@@ -130,7 +130,7 @@
     <owl:ObjectProperty rdf:about="&urbanismo-infraestructuras;alumbrado-publico#emiteTipoDeLuz">
         <rdfs:label xml:lang="en">emiteTipoDeLuz</rdfs:label>
         <rdfs:comment xml:lang="es">Relación entre el punto de alumbrado y el tipo de luz que emite que se representa mediante un Concept SKOS.</rdfs:comment>
-        <rdfs:domain rdf:resource="&urbanismo-infraestructuras;PuntoDeAlumbrado"/>
+        <rdfs:domain rdf:resource="&urbanismo-infraestructuras;alumbrado-publico#PuntoDeAlumbrado"/>
         <rdfs:range rdf:resource="&skos-reference;Concept"/>
     </owl:ObjectProperty>
     
@@ -141,7 +141,7 @@
     <owl:ObjectProperty rdf:about="&urbanismo-infraestructuras;alumbrado-publico#situadoEnMunicipio">
         <rdfs:label xml:lang="es">situado en municipio</rdfs:label>
         <rdfs:range rdf:resource="&localizacion;Municipio"/>
-        <rdfs:domain rdf:resource="&urbanismo-infraestructuras;PuntoDeAlumbrado"/>
+        <rdfs:domain rdf:resource="&urbanismo-infraestructuras;alumbrado-publico#PuntoDeAlumbrado"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
     </owl:ObjectProperty>
     
@@ -262,7 +262,7 @@
 
     <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/PuntoDeAlumbrado -->
 
-    <owl:Class rdf:about="&urbanismo-infraestructuras;PuntoDeAlumbrado"/>
+    <owl:Class rdf:about="&urbanismo-infraestructuras;alumbrado-publico#PuntoDeAlumbrado"/>
     
 
 
